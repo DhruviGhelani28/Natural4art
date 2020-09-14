@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#toggle
+{
+    display: none;
+}
+.togglearea
+{
+    background-color:#0a1352;
+    border-bottom:2px solid white;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.togglearea label
+{
+    background-color:white;
+    height: 45px;
+    width: 45px;
+    color:black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.togglearea label span
+{
+    background-color: black;
+    height: 4px;
+    width: 70%;
+    margin: 4px 0px;
+}
+
+.togglearea
+{
+    display: none;
+}
+
+@media screen and (max-width: 600px)
+{
+    .navbar
+    {
+        cursor: pointer;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+    }
+    #toggle:checked + .navbar
+    {
+        display: flex;
+    }
+    .togglearea
+    {
+        display: flex;
+    }
+footer{
+        cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:auto;
+    height:auto;
+    }
+    .container #first,#sec
+    {
+        cursor: pointer;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 20px;
+    width:auto;
+    }
+    #sub{
+cursor: pointer;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: auto;
+    }
+    
+}
+
+}
